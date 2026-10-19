@@ -1,0 +1,22 @@
+trailer_key,n_lines,is_prescribed_key
+Assisted-by,4458,True
+Assisted-By,22,True
+Assisted-by-AI,6,False
+tests,5,False
+doc,5,False
+boards,4,False
+Co-Developed-by,1,False
+Assigned-by,1,False
+strictly passive,1,False
+MAINTAINERS,1,False
+The generated code is unaffected,1,False
+Note,1,False
+Deriving it is not free,1,False
+dts,1,False
+free-run is not board-specific,1,False
+net,1,False
+Claude-Session,1,False
+cmake,1,False
+enabled,1,False
+tests zbus proxy_agent ipc_backend,1,False
+Made-with,1,False

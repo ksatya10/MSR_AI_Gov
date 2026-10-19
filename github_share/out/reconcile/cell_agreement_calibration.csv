@@ -1,0 +1,7 @@
+dimension,cells_agree,cells,raw_agreement
+T,12,20,0.6
+R,10,20,0.5
+A,12,20,0.6
+C,12,20,0.6
+E,16,20,0.8
+ALL,62,100,0.62

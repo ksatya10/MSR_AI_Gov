@@ -1,0 +1,6 @@
+dim,letter,n,agreement,kappa,kappa_band,treated_as,wkappa_linear,wkappa_quadratic,alpha_ordinal,measure_recommended
+transparency,T,75,0.8533,0.7857,substantial,ordinal,0.8055,0.8115,0.8237,wkappa_linear / alpha_ordinal
+responsibility,R,75,0.8533,0.7445,substantial,nominal,,,,kappa (nominal)
+attribution,A,75,0.92,0.8148,almost perfect,ordinal,0.8582,0.872,0.9176,wkappa_linear / alpha_ordinal
+constraints,C,75,0.8,0.7098,substantial,ordinal,0.7158,0.7309,0.7415,wkappa_linear / alpha_ordinal
+enforcement,E,75,0.8,0.693,substantial,ordinal,0.76,0.8017,0.8122,wkappa_linear / alpha_ordinal

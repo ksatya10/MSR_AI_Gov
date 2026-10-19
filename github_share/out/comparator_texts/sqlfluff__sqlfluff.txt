@@ -1,0 +1,19 @@
+# sqlfluff/sqlfluff  (CONTRIBUTING.md)
+# T4_Detailed_Traceability_Required|R4_Validation_or_Evidence_Required|A3_License_or_Source_Compatibility_Required|C2_Form_Restricted|E3_Current_Submission_Rejected_or_Closed
+# adopted 2026-03-24T11:17:05Z
+
+### AI-Assisted Contributions
+
+AI-assisted contributions are welcome when they meet the same quality,
+correctness, and maintainability bar as any other contribution.
+
+- The contributor remains responsible for the final pull request, including
+  correctness, tests, and maintainability.
+- If AI tools were used in a material way, disclose this in the pull request,
+  including what was AI-assisted and what was manually validated.
+- Submissions should be reviewable and intentional. Large, low-context, or
+  bulk-generated changes without clear rationale and tests may be declined.
+- Generated content must comply with project licensing expectations and must
+  not include copied proprietary code or sensitive information.
+- AI assistance does not bypass the normal review and testing requirements in
+  this guide.

@@ -1,0 +1,34 @@
+path,tier,file_kind,matched_by,matched_filename,matched_content,ai_terms,normative_terms,ai_near_normative,rule_like,in_code_dir,bytes,governance,governance_note
+MAINTAINERS.yml,0,content_match_only,content_only,False,True,1,18,0,False,False,173497,no,"Only match is the filename CLAUDE.md in an ownership list (line 1487). Assigns maintainers to the agent files; governance metadata, not policy text."
+doc/develop/manifest/external/edge-impulse.rst,0,content_match_only,content_only,False,True,1,2,0,False,False,2454,no,Describes Edge Impulse as an 'edge AI' platform (line 9). Product description of an external module.
+doc/develop/manifest/external/executorch.rst,0,content_match_only,content_only,False,True,4,16,0,False,False,17611,no,"'AI models', 'AI accelerator', 'AI inference' (lines 83-87, 460). Technical documentation of an ML runtime."
+doc/develop/manifest/external/zephelin.rst,0,content_match_only,content_only,False,True,4,0,0,False,False,2399,no,"'AI/ML inference workloads', 'AI runtimes' (lines 11-28). Technical documentation of a profiling tool."
+doc/develop/tools/kapa_ai.rst,0,content_match_only,content_only,False,True,20,1,1,False,False,5739,no,Documents an AI documentation assistant for readers; no rules for contributors' use of AI.
+doc/releases/migration-guide-4.4.rst,0,content_match_only,content_only,False,True,1,75,0,False,False,79262,no,Only match is the vendor name 'Ai-Thinker' (line 147).
+doc/releases/release-notes-2.1.rst,0,content_match_only,content_only,False,True,1,33,1,False,False,51442,no,Only match is the C field name 'ai_family' in an issue title (line 793).
+doc/releases/release-notes-3.4.rst,0,content_match_only,content_only,False,True,1,27,0,False,False,58378,no,Only match is the function name 'net_pkt_cursor_operate()' (line 1131).
+doc/releases/release-notes-4.0.rst,0,content_match_only,content_only,False,True,1,14,0,False,False,69941,no,Only match is the board name 'BeagleBone AI-64' (line 283).
+doc/releases/release-notes-4.1.rst,0,content_match_only,content_only,False,True,2,8,0,False,False,31946,no,"Only match is the board name 'canbardo', which contains 'bard' (line 533)."
+doc/releases/release-notes-4.2.rst,0,content_match_only,content_only,False,True,1,10,0,False,False,47174,no,Only match is the vendor name 'Ai-Thinker' (line 525).
+doc/releases/release-notes-4.3.rst,0,content_match_only,content_only,False,True,1,9,0,False,False,47009,no,Only match is the vendor name 'Ai-Thinker' (line 542).
+doc/releases/release-notes-4.4.rst,0,content_match_only,content_only,False,True,1,17,0,False,False,78074,no,Only match is the vendor name 'Ai-Thinker' (line 839).
+doc/releases/release-notes-4.5.rst,0,content_match_only,content_only,False,True,1,22,0,False,False,98299,no,Only match is the vendor name 'Ai-Thinker' (line 1007).
+doc/security/vulnerabilities.rst,0,content_match_only,content_only,False,True,3,107,0,False,False,305046,no,Matches are a 'write cursor' in a buffer-overflow description (lines 4051-4062).
+doc/services/connectivity/networking/api/lwm2m.rst,0,content_match_only,content_only,False,True,1,24,0,False,False,29862,no,"Only match is 'ExtDevInfo', which contains 'devin' (line 217)."
+doc/services/connectivity/networking/api/mcp.rst,0,content_match_only,content_only,False,True,3,4,0,False,False,8646,no,Describes the Model Context Protocol for connecting AI agents to devices (lines 13-19). API documentation.
+doc/services/connectivity/networking/api/net_pkt.rst,0,content_match_only,content_only,False,True,17,7,2,False,False,13261,no,All 17 matches are the packet-buffer 'cursor'. API documentation.
+doc/services/shell/index.rst,0,content_match_only,content_only,False,True,11,22,1,False,False,37289,no,All 11 matches are the terminal 'cursor'. Shell documentation.
+scripts/schemas/patch-schema.yml,0,content_match_only,content_only,False,True,1,8,0,False,False,4277,no,Only match is the copyright holder 'Tenstorrent AI ULC' (line 1).
+.github/SECURITY.md,2,contribution_doc,filename_only,True,False,0,0,0,False,False,520,no,No AI vocabulary. Candidate by filename only.
+CODE_OF_CONDUCT.md,2,contribution_doc,filename_only,True,False,0,0,0,False,False,6041,no,No AI vocabulary. Candidate by filename only.
+CONTRIBUTING.rst,2,contribution_doc,filename_only,True,False,0,0,0,False,False,1691,no,No AI vocabulary. Short pointer to the hosted contribution guidelines.
+README.rst,2,readme,filename_only,True,False,0,0,0,False,False,4560,no,No AI vocabulary. Candidate by filename only.
+doc/contribute/contributor_expectations.rst,2,contribution_doc,filename_only,True,False,0,0,0,False,False,12449,no,No AI vocabulary. General contribution rules only.
+doc/contribute/documentation/guidelines.rst,2,contribution_doc,filename_only,True,False,0,0,0,False,False,52313,no,No AI vocabulary. Documentation style guide.
+doc/contribute/guidelines.rst,2,contribution_doc,both,True,True,12,62,12,True,False,41884,yes,"Section 'AI Coding Assistants' (from line 214): licensing, no AI Signed-off-by, human review and responsibility, Assisted-by disclosure. Contributor-facing rules."
+doc/contribute/reviewer_expectations.rst,2,contribution_doc,both,True,True,5,20,5,True,False,4295,yes,Lines 72-78: rules for reviewers using AI tools (no raw unverified LLM output as PR comments; feedback must be vetted).
+doc/services/connectivity/usb/guidelines.rst,2,contribution_doc,filename_only,True,False,0,0,0,False,False,2524,no,No AI vocabulary. USB device guidelines.
+doc/services/security.rst,2,contribution_doc,filename_only,True,False,0,0,0,False,False,327,no,No AI vocabulary. Candidate by filename only.
+.github/copilot-instructions.md,3,pr_template_or_agent_file,both,True,True,11,5,11,True,False,1366,yes,"Instructions to Copilot that restate contribution rules (no Signed-off-by/Co-authored-by, add Assisted-by). Tool-facing; coded as a separate unit."
+AGENTS.md,3,pr_template_or_agent_file,both,True,True,17,25,9,True,False,13262,yes,'Instructions for AI coding agents ... and for the humans driving them'; digest of the contribution rules. Tool-facing; coded as a separate unit.
+CLAUDE.md,3,pr_template_or_agent_file,filename_only,True,False,0,0,0,False,False,122,no,Contains only '@AGENTS.md' (an import). No policy text of its own.

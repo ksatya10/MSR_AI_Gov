@@ -1,0 +1,25 @@
+commit:      ede6dce8e0dcb4ec1e18a529be9cc8ec937a7018
+commit date: 2026-05-27T08:37:07+02:00
+author date: 2026-05-22T19:18:34+02:00
+subject:     .github: add copilot-instruction to avoid ASCII rulers
+source:      git show on work/history (HEAD f1e1313359f); author name/email and *-by: trailers omitted
+
+--- message body ---
+This did show up on a batch of PRs and is not explicitly stated on the doc
+so is not applied by defaults. Reduce review effort by pre-applying it on
+everyone's LLM suggested output.
+
+
+--- diff ---
+diff --git a/.github/copilot-instructions.md b/.github/copilot-instructions.md
+index 687baba4057..3855db5b135 100644
+--- a/.github/copilot-instructions.md
++++ b/.github/copilot-instructions.md
+@@ -66,6 +66,7 @@ with these Zephyr-specific rules:
+   single-line blocks.
+ - Use `/* */` for comments; `//` is not allowed.
+ - Use `/** */` for Doxygen API documentation.
++- Avoid ASCII decoration or ASCII rulers delimiters in coments
+ - No binary literals (`0b...`).
+ - No non-ASCII symbols in code (no emojis under any circumstances).
+ - Capitalize correctly in comments: `UART` not `uart`, `CMake` not `cmake`.

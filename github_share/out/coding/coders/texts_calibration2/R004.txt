@@ -1,0 +1,16 @@
+sample_id: R004
+policy_doc: .github/PULL_REQUEST_TEMPLATE.md
+(repo name and AI coding deliberately withheld for blinded annotation)
+========================================================================
+
+## AI Disclosure
+
+<!-- Check one. Be honest.
+
+It is okay to use coding agents to discover, build features and fix bugs,
+but you are ultimately responsible for the patch.
+
+This project does not welcome YOLO coding. -->
+
+- [ ] I used coding agents to create this patch. I understand and am responsible for all the code it generates.
+- [ ] I did not use any coding agent to create this patch. I am responsible for all the code I wrote.

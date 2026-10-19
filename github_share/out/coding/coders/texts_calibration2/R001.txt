@@ -1,0 +1,9 @@
+sample_id: R001
+policy_doc: .github/PULL_REQUEST_TEMPLATE.md
+(repo name and AI coding deliberately withheld for blinded annotation)
+========================================================================
+
+## Checklist
+
+- [ ] I confirm that the code and comments in this PR are not direct unreviewed outputs of AI
+- [ ] I confirm that I am the Sole Responsible Author for every line of code, comment, and design decision

@@ -1,0 +1,11 @@
+{
+  "files_in_unit": 4,
+  "total_extracted_bytes": 16480,
+  "earliest_ai_commit": "2026-03-06T21:37:32+01:00",
+  "latest_ai_commit": "2026-09-04T13:42:04-04:00",
+  "distinct_first_commit_shas": [
+    "05e73162ff8c8bcc750b3549f66959d65a871654",
+    "d9245e860ff7fcf63a86812ad9c1d8ab6a38e8fd",
+    "df8b5861725396858cb31417abeb68a00750a803"
+  ]
+}

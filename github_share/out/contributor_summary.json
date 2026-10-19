@@ -1,0 +1,85 @@
+{
+  "policy_date": "2026-03-06",
+  "post_policy_commits": 20911,
+  "post_policy_authors": 1388,
+  "authors_ever_disclosing": 224,
+  "share_of_authors_ever_disclosing": 0.1614,
+  "authors_with_exactly_one_disclosing_commit": 84,
+  "authors_who_always_disclose": 71,
+  "disclosing_commits": 4460,
+  "gini_of_disclosing_commits_among_disclosers": 0.8657,
+  "concentration": [
+    {
+      "top_k_authors": 1,
+      "disclosing_commits": 1169,
+      "share_of_disclosing_commits": 0.2621
+    },
+    {
+      "top_k_authors": 2,
+      "disclosing_commits": 2150,
+      "share_of_disclosing_commits": 0.4821
+    },
+    {
+      "top_k_authors": 5,
+      "disclosing_commits": 2906,
+      "share_of_disclosing_commits": 0.6516
+    },
+    {
+      "top_k_authors": 10,
+      "disclosing_commits": 3338,
+      "share_of_disclosing_commits": 0.7484
+    },
+    {
+      "top_k_authors": 20,
+      "disclosing_commits": 3675,
+      "share_of_disclosing_commits": 0.824
+    },
+    {
+      "top_k_authors": 50,
+      "disclosing_commits": 4052,
+      "share_of_disclosing_commits": 0.9085
+    },
+    {
+      "top_k_authors": 100,
+      "disclosing_commits": 4288,
+      "share_of_disclosing_commits": 0.9614
+    }
+  ],
+  "policy_author": {
+    "identified": true,
+    "pseudonym": "C0001",
+    "disclosing_commits": 1169,
+    "share_of_disclosing_commits": 0.2621
+  },
+  "by_activity_tier": [
+    {
+      "activity_tier": "other",
+      "authors": 1034,
+      "ever_disclosed": 112,
+      "commits": 2663,
+      "disclosing": 230,
+      "share_authors_disclosing": 0.1083,
+      "commit_disclosure_rate": 0.0864
+    },
+    {
+      "activity_tier": "top_25pct",
+      "authors": 282,
+      "ever_disclosed": 72,
+      "commits": 5836,
+      "disclosing": 484,
+      "share_authors_disclosing": 0.2553,
+      "commit_disclosure_rate": 0.0829
+    },
+    {
+      "activity_tier": "top_5pct",
+      "authors": 72,
+      "ever_disclosed": 40,
+      "commits": 12412,
+      "disclosing": 3746,
+      "share_authors_disclosing": 0.5556,
+      "commit_disclosure_rate": 0.3018
+    }
+  ],
+  "disclosers_active_before_policy": 117,
+  "limitation": "identity = author email; multiple addresses per person inflate author counts"
+}

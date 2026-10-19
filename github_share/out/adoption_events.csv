@@ -1,0 +1,7 @@
+path,sha,commit_date,subject,pr_number,added_chars,ai_terms_added
+doc/contribute/guidelines.rst,df8b5861725396858cb31417abeb68a00750a803,2026-03-06T21:37:32+01:00,doc: contribute: add AI coding assistant guidelines,,1606,12
+doc/contribute/reviewer_expectations.rst,df8b5861725396858cb31417abeb68a00750a803,2026-03-06T21:37:32+01:00,doc: contribute: add AI coding assistant guidelines,,478,5
+.github/copilot-instructions.md,05e73162ff8c8bcc750b3549f66959d65a871654,2026-04-22T17:14:09+02:00,.github: add Copilot instructions for contributors,,9047,10
+.github/copilot-instructions.md,c5343134b94d47686c33aded0575704b4f1ca569,2026-09-04T13:42:04-04:00,.github: copilot-instructions: defer to AGENTS.md,,1357,11
+AGENTS.md,d9245e860ff7fcf63a86812ad9c1d8ab6a38e8fd,2026-09-04T13:42:04-04:00,AGENTS.md: add instructions for AI coding agents,,13094,17
+AGENTS.md,cbced0ca9844c25421c1c774aa631693de602d70,2026-09-22T17:59:06+02:00,AGENTS.md: clarify the Signed-off-by rule,,493,3

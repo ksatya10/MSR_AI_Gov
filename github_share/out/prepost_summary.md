@@ -1,0 +1,14 @@
+# Zephyr before and after adoption (paper's week grid)
+
+Event week 0 = 2026-03-02 (adoption 2026-03-06). Weekly means for counts, pooled shares for shares. One repository, no comparison group: descriptive only.
+
+| window | weeks | commits_per_week | commit_authors_per_week | assisted_by_share_pooled | authors_disclosing_per_week | pkg_rule_commits_per_week | prs_opened_per_week | paper_ai_disclosure_pr_share_pooled | merged_prs_with_trailer_share |
+|---|---|---|---|---|---|---|---|---|---|
+| pre 8 (-8..-1) | 8 | 497.9 | 147.1 | 0.0 | 0.0 | 0.0 | 304.1 | 0.0004 |  |
+| post 8 (0..7) = paper's main window | 8 | 540.8 | 151.9 | 0.0155 | 3.8 | 0.0 | 320.1 | 0.0004 | 0.0215 |
+| pre 4 (-4..-1) | 4 | 467.0 | 140.0 | 0.0 | 0.0 | 0.0 | 287.5 | 0.0009 |  |
+| post 4 (0..3) | 4 | 713.2 | 178.0 | 0.0088 | 2.8 | 0.0 | 358.5 | 0.0007 | 0.014 |
+| post 12 (0..11) | 12 | 545.7 | 152.9 | 0.0287 | 5.6 | 0.08 | 332.2 | 0.0008 | 0.0356 |
+| later (8..30) | 23 | 736.8 | 169.5 | 0.2592 | 25.6 | 2.0 | 452.6 | 0.0015 | 0.2362 |
+
+Commit counts dip in some weeks after adoption (see prepost_weekly.csv); check Zephyr's release calendar before reading anything into activity changes.

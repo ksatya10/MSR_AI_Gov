@@ -1,0 +1,79 @@
+commit:      b83fbf6a7f5f290f5b0f13732e2d844c7a6636c3
+commit date: 2026-04-22T17:14:09+02:00
+author date: 2026-04-20T09:48:19-07:00
+subject:     .github: amend Copilot instructions manually...
+source:      git show on work/history (HEAD f1e1313359f); author name/email and *-by: trailers omitted
+
+--- message body ---
+... to clarify on Signed-off-by line, and to remove irrevelant
+points.
+
+() Instead of telling the agent to never add the Signed-off-by
+   line, amend it to say that can be added if explicitly
+   requested by the human operator.
+
+() Remove the "External Components" as it is more for modules
+   pulled in by west, and not code under Zephyr main repo.
+   The previous wording might be interpreted by the AI agent
+   that it is good to pull in third-party code which may have
+   copyright implications.
+
+() Remove a few points from the "Pull Request Guidelines".
+
+   () No need to tell AI agent to discuss on mailing list or
+      Discord first. Discussion is usually done before code
+      is written. Once code is written, it is better to submit
+      a draft PR and discuss there.
+
+   () The lifecycle of PRs is not really relevant at this
+      point, until the time we allow fully autonomous AI agents
+      submitting PRs and responding to reviews with comments
+      and blog posts.
+
+
+--- diff ---
+diff --git a/.github/copilot-instructions.md b/.github/copilot-instructions.md
+index 078f7ff28c8..3b997a510dd 100644
+--- a/.github/copilot-instructions.md
++++ b/.github/copilot-instructions.md
+@@ -28,7 +28,7 @@ contributions to the Zephyr RTOS repository.
+ ## Developer Certificate of Origin (DCO)
+ 
+ - Every commit requires a `Signed-off-by` line — **only humans** may add this; AI agents
+-  must not add `Signed-off-by` tags.
++  should not add `Signed-off-by` tags unless explicitly requested by humans.
+ - The human submitter is responsible for reviewing all AI-generated code, ensuring license
+   compliance, and signing off.
+ - Use a real legal name and real email address (no pseudonyms, no noreply addresses).
+@@ -152,19 +152,6 @@ All new code must comply with the Zephyr MISRA-C subset. Key required rules:
+ 
+ ---
+ 
+-## External Components
+-
+-- To import third-party code, open a GitHub issue using the **New External Source Code**
+-  template before writing any code.
+-- Apache-2.0 code: TSC review only.
+-- Other licenses: TSC approval + Zephyr governing board approval (2-week review window).
+-- Code integrated into the main tree must conform to all Zephyr style, coding, and SPDX
+-  rules.
+-- Modules go into `west.yml` (required) or `submanifests/optional.yml` (optional).
+-- The submitter must commit to ongoing maintenance and add an entry to `MAINTAINERS.yml`.
+-
+----
+-
+ ## Commit Message Guidelines
+ 
+ Every commit message must follow this format:
+@@ -222,11 +209,6 @@ Fixes zephyrproject-rtos/zephyr#[issue number]
+ ## Pull Request Guidelines
+ 
+ - Search existing issues and PRs before starting work.
+-- Discuss large changes on the mailing list or Discord first.
+-- Keep PR descriptions up to date and respond to review feedback within **21 days**.
+-- Draft PRs must move to ready-for-review within **30 days**.
+-- PRs become stale after 30 days of inactivity; they may be closed 7 days after a stale
+-  notice. This is an administrative action, not a rejection — reopen with an updated plan.
+ 
+ ### Modifying Others' Contributions
+ 

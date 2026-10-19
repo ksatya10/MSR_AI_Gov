@@ -1,0 +1,8 @@
+dimension,cells_agree,cells,raw_agreement
+scope,1,3,0.333
+T,3,3,1.0
+R,3,3,1.0
+A,3,3,1.0
+C,1,3,0.333
+E,3,3,1.0
+ALL,14,18,0.778

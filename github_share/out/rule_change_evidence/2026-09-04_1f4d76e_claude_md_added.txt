@@ -1,0 +1,26 @@
+commit:      1f4d76e0ecb52332b1335d295ef552274289766b
+commit date: 2026-09-04T13:42:04-04:00
+author date: 2026-08-28T20:06:58+03:00
+subject:     CLAUDE.md: import AGENTS.md for Claude Code
+source:      git show on work/history (HEAD f1e1313359f); author name/email and *-by: trailers omitted
+
+--- message body ---
+Claude Code reads CLAUDE.md, not AGENTS.md. A CLAUDE.md consisting of
+the single import line "@AGENTS.md" makes it load the shared
+instructions, as documented by the tool, without duplicating them. A
+symlink would do the same but cannot be created on Windows without
+elevated privileges.
+
+
+--- diff ---
+diff --git a/CLAUDE.md b/CLAUDE.md
+new file mode 100644
+index 00000000000..fbed86cbe80
+--- /dev/null
++++ b/CLAUDE.md
+@@ -0,0 +1,5 @@
++<!--
++SPDX-FileCopyrightText: Copyright The Zephyr Project Contributors
++SPDX-License-Identifier: Apache-2.0
++-->
++@AGENTS.md

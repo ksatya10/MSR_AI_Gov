@@ -1,0 +1,50 @@
+{
+  "repo_history": "/Users/satya/MyVault/CSU/Research/AIgov/pipeline123/work/history",
+  "package": "/Users/satya/MyVault/CSU/Research/AIgov/replication_package_final_20260921",
+  "window": {
+    "since": "2025-01-01",
+    "until": "2026-09-30 23:59:59 +0000",
+    "last_commit": "2026-09-30",
+    "policy_date": "2026-03-06"
+  },
+  "commits": {
+    "total": 47068,
+    "pre_policy": 26157,
+    "post_policy": 20911
+  },
+  "T_transparency": {
+    "assisted_by_commits_pre": 0,
+    "assisted_by_commits_post": 4460,
+    "assisted_by_share_post": 0.2133,
+    "coauthored_ai_commits_post": 45,
+    "generated_by_commits_post": 0,
+    "trailer_lines_total": 4480,
+    "format_conformance_lenient_post": 0.9694,
+    "format_conformance_strict_post": 0.8915,
+    "no_colon_at_all_post": 137,
+    "prescribed_key_share": 0.9922,
+    "variant_key_lines": 35
+  },
+  "A_attribution": {
+    "disclosing_commits_with_human_signoff_post": 4460,
+    "disclosing_commits_post": 4460,
+    "signoff_lines_naming_ai_total": 25,
+    "of_which_look_like_human_at_ai_org": 18,
+    "note": "signoff_ai_candidates.csv requires manual verdicts; the domain filter is a screening aid, not a finding."
+  },
+  "baseline_package_rule": {
+    "pkg_rule_hits_post": 46,
+    "trailer_hits_post": 4502,
+    "disclosed_by_trailer_but_missed_by_pkg_rule": 4457,
+    "ratio_trailer_to_pkg_rule": 97.9,
+    "caveat": "the package applies this rule to PR title+body, where commit trailers do not appear; applying it to commit messages is therefore an UPPER bound on what the published pipeline would have detected."
+  },
+  "limits": {
+    "undisclosed_use_not_measurable": true,
+    "post_policy_commits_naming_ai_without_trailer": 66
+  },
+  "vocabulary": {
+    "package_tools": "(?:ai|chatgpt|gpt[- ]?(?:3(?:\\.5)?|4(?:\\.1)?|5)?|openai|claude(?:\\s+code)?|anthropic|copilot|codex|cursor|llm|large language model|gemini|bard|aider|windsurf|devin)",
+    "extended_tools": "(?:ai|chatgpt|gpt[- ]?(?:3(?:\\.5)?|4(?:\\.1)?|5)?|openai|claude(?:\\s+code)?|anthropic|copilot|codex|cursor|llm|large language model|gemini|bard|aider|windsurf|devin|jules|goose|antigravity|grok|kiro|wchat)"
+  }
+}

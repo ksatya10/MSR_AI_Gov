@@ -1,0 +1,44 @@
+# fluxcd/flux2  (CONTRIBUTING.md)
+# T4_Detailed_Traceability_Required|R4_Validation_or_Evidence_Required|A3_License_or_Source_Compatibility_Required|C3_Context_or_Channel_Restricted|E1_Not_Mentioned
+# adopted 2026-04-12T16:58:50Z
+
+## AI Coding Assistants Guidance
+
+Using AI Agents to help write your PR is acceptable, but as the author, you are responsible
+for understanding the code and the documentation you submit. Please review all the AI-generated
+content and make sure it follows the guidelines in this document before submitting your PR.
+
+All Flux repositories contain an `AGENTS.md` file. You must point your AI Agent to
+`AGENTS.md` and ask it to follow the guidelines and conventions described there.
+
+Trim down the verbiage in the PR description, commit messages and code comments.
+When engaging with Flux maintainers please refrain from using AI Agents to
+generate responses, we want to talk to you, not to your AI Agent.
+
+AI Agents **must not** add `Signed-off-by` or `Co-authored-by` tags to the commit message.
+Only humans can legally certify the Developer Certificate of Origin ([DCO](https://developercertificate.org/)).
+
+You should disclose the use of AI Agents in the description of your PR and
+in the commit message using the `Assisted-by: AGENT_NAME/LLM_VERSION` tag.
+
+Adding the `Assisted-by` tag to the commit message can be done with:
+
+```sh
+git commit -s -m "Your commit message" --trailer "Assisted-by: <agent>/<model>"
+```
+
+**Note** that the `Signed-off-by` tag is set via the `-s` flag using your real name and email
+(`user.name` and `user.email` must be set in Git config).
+
+Example of a commit message disclosing the use of AI assistance:
+
+```text
+Add version info to plugin listing
+
+Add a version column to the `flux plugin list` table output and populate
+it with the semantic version info extracted from the plugin's recipe file.
+For plugins installed via symlinks, the version is set to `unknown`.
+
+Signed-off-by: Jane Doe <jane.doe@example.com>
+Assisted-by: copilot/gpt-5.4
+```

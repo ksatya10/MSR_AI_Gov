@@ -1,0 +1,16 @@
+letter,coder_1,coder_2,n,agreement,kappa,wkappa_linear
+T,blindA,blindB,20,0.6,0.4425,0.5185
+T,blindA,author,20,0.7,0.562,0.7647
+T,blindB,author,20,0.7,0.5819,0.5926
+R,blindA,blindB,20,0.5,0.3289,
+R,blindA,author,20,0.5,0.3464,
+R,blindB,author,20,0.6,0.4139,
+A,blindA,blindB,20,0.6,0.403,0.5495
+A,blindA,author,20,0.8,0.6694,0.8206
+A,blindB,author,20,0.5,0.2481,0.4915
+C,blindA,blindB,20,0.6,0.4182,0.6135
+C,blindA,author,20,0.6,0.4245,0.5408
+C,blindB,author,20,0.65,0.4853,0.6465
+E,blindA,blindB,20,0.8,0.6899,0.7211
+E,blindA,author,20,0.85,0.7727,0.875
+E,blindB,author,20,0.8,0.6981,0.6899

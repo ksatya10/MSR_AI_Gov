@@ -1,0 +1,6 @@
+sample_id: R031
+policy_doc: .github/PULL_REQUEST_TEMPLATE.md
+(repo name and AI coding deliberately withheld for blinded annotation)
+========================================================================
+
+- [ ] AI disclosure: Please disclose use of AI per [the guidelines](https://docs.communityhealthtoolkit.org/community/contributing/ai-guidelines/).

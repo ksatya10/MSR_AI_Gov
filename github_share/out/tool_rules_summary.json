@@ -1,0 +1,48 @@
+{
+  "commits": [
+    {
+      "period": "1 before policy",
+      "commits": 26157,
+      "R1_coauthored_by_ai": 1,
+      "commits_with_assisted_by": 0,
+      "R2_more_than_one_assisted_by": 0,
+      "R3_generated_with_in_commit": 0
+    },
+    {
+      "period": "2 policy to AGENTS.md",
+      "commits": 17034,
+      "R1_coauthored_by_ai": 34,
+      "commits_with_assisted_by": 3069,
+      "R2_more_than_one_assisted_by": 15,
+      "R3_generated_with_in_commit": 1
+    },
+    {
+      "period": "3 after AGENTS.md",
+      "commits": 3877,
+      "R1_coauthored_by_ai": 11,
+      "commits_with_assisted_by": 1391,
+      "R2_more_than_one_assisted_by": 5,
+      "R3_generated_with_in_commit": 0
+    }
+  ],
+  "pr_bodies": [
+    {
+      "period": "1 before policy",
+      "nonbot_prs_opened": 16665,
+      "R3_generated_with_in_pr_body": 0,
+      "R1_coauthored_by_ai_in_pr_body": 0
+    },
+    {
+      "period": "2 policy to AGENTS.md",
+      "nonbot_prs_opened": 10579,
+      "R3_generated_with_in_pr_body": 27,
+      "R1_coauthored_by_ai_in_pr_body": 0
+    },
+    {
+      "period": "3 after AGENTS.md",
+      "nonbot_prs_opened": 2175,
+      "R3_generated_with_in_pr_body": 6,
+      "R1_coauthored_by_ai_in_pr_body": 0
+    }
+  ]
+}

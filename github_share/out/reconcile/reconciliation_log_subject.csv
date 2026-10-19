@@ -1,0 +1,5 @@
+sample_id,dimension,blindA,blindB,author,agreed,reason
+U1,C,C2_Form_Restricted,C3_Context_or_Channel_Restricted,C2_Form_Restricted,C2_Form_Restricted,"Reviewers must never paste raw, unverified LLM output as a PR comment."
+U2,scope,in_scope,partly_in_scope,in_scope,in_scope,Went through the Annotation guide and agreed with in_scope
+U3,C,C2_Form_Restricted,C3_Context_or_Channel_Restricted,C2_Form_Restricted,C2_Form_Restricted,"Reviewers must never paste raw, unverified LLM output as a PR comment."
+U3,scope,in_scope,partly_in_scope,in_scope,in_scope,Went through the Annotation guide and agreed with in_scope

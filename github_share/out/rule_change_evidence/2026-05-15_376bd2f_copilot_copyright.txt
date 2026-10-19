@@ -1,0 +1,27 @@
+commit:      376bd2f4cb540ed55a0a22ff1c0560addacd2ed9
+commit date: 2026-05-15T10:48:05+02:00
+author date: 2026-05-14T22:50:43+02:00
+subject:     .github: copilot-instructions: relax copyright statement instructions
+source:      git show on work/history (HEAD f1e1313359f); author name/email and *-by: trailers omitted
+
+--- message body ---
+Current wording tends to make Copilot put review comments telling folks
+their copyright statement is incorrect. Reword things a bit to make it
+clear that it's fine to have individual or organization names.
+
+
+--- diff ---
+diff --git a/.github/copilot-instructions.md b/.github/copilot-instructions.md
+index 3b997a510dd..687baba4057 100644
+--- a/.github/copilot-instructions.md
++++ b/.github/copilot-instructions.md
+@@ -20,6 +20,9 @@ contributions to the Zephyr RTOS repository.
+   SPDX-License-Identifier: Apache-2.0
+   ```
+ 
++  The copyright statement may refer to the individual or organization who authored the contribution
++  but "Copyright The Zephyr Project Contributors" is always the preferred form.
++
+ - External code under a license other than Apache 2.0 requires TSC + governing board
+   approval before integration.
+ 

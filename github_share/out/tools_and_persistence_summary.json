@@ -1,0 +1,22 @@
+{
+  "tools_family_share": {
+    "claude": 0.7866,
+    "copilot": 0.0938,
+    "cursor": 0.0442,
+    "unparsed": 0.0281,
+    "other": 0.0201,
+    "codex": 0.0179,
+    "gemini": 0.0049,
+    "chatgpt": 0.0045
+  },
+  "persistence": {
+    "authors_who_ever_disclosed": 224,
+    "with_at_least_one_later_commit": 169,
+    "later_commits_total": 7520,
+    "later_commits_disclosing_pooled_share": 0.5633,
+    "per_author_share_median": 0.625,
+    "authors_disclosing_on_every_later_commit": 57,
+    "authors_disclosing_on_no_later_commit": 29,
+    "note": "persistence of disclosure, not of AI use"
+  }
+}

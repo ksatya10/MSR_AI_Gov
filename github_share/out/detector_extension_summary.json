@@ -1,0 +1,32 @@
+{
+  "population": "merged non-bot PRs to main, merged 2026-03-06..2026-09-30, commits fetched",
+  "n_prs": 9582,
+  "checks": {
+    "paper_rule == 8": true,
+    "trailer == 1864": true,
+    "both == 4": true,
+    "c3 equals s9 trailer_any on every PR": true,
+    "c2 equals s9 body_has_assisted_by on every PR": true
+  },
+  "per_component": {
+    "c1_paper_rule": 8,
+    "c2_text_assisted": 284,
+    "c3_commit_assisted": 1864,
+    "c4_commit_coauthor": 33,
+    "c5_commit_generated": 1
+  },
+  "extended_union": 1899,
+  "extended_share": 0.1982,
+  "paper_rule_share": 0.0008,
+  "added_by_extension_over_paper_rule": 1891,
+  "only_component": {
+    "c1_paper_rule": 2,
+    "c2_text_assisted": 3,
+    "c3_commit_assisted": 1577,
+    "c4_commit_coauthor": 27,
+    "c5_commit_generated": 0
+  },
+  "paper_rule_only_prs_flagged_by_no_other_component": 2,
+  "text_only_detectors_union_c1_c2": 291,
+  "note": "Counts disclosures the policy asks for; recall against real AI use cannot be measured."
+}

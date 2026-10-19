@@ -1,0 +1,51 @@
+sample_id: R068
+policy_doc: CONTRIBUTING.md
+(repo name and AI coding deliberately withheld for blinded annotation)
+========================================================================
+
+### Pull Requests
+
+This section guides you through submitting a pull request for Terra.
+
+While the prerequisites above must be satisfied prior to having your pull
+request reviewed, the reviewer(s) may ask you to complete additional design
+work, tests, or other changes before your pull request can be ultimately
+accepted.
+
+#### Before Submitting A Pull Request
+
+- You must be on the **LATEST** version of Terra to make sure your feature
+  hasn't been added yet.
+- Search for
+  any [already existing issues](https://github.com/PolyhedralDev/Terra/issues?q=is%3Aissue+) (
+  Including closed!) with your problem. If you open a duplicate, it will be
+  closed as such.
+- Verify that this is actually within the scope of Terra.
+- Be sure that this is not a feature request that should be made for a specific
+  Terra *pack*, and instead applies to all of Terra.
+- Be sure that this is not something that should be implemented as a Terra
+  addon, and instead applies to all of Terra.
+- Make sure that you attach a copy of the latest.log file, if there are any
+  exceptions thrown in the console. Putting *just* the exception **is not
+  enough**. We need to be able to check that there wasn't anything else before
+  that caused it.
+
+#### How Do I Submit A (Good) Pull Request?
+
+Pull Requests are tracked
+as [GitHub Pull Requests](https://guides.github.com/activities/forking/#making-a-pull-request)
+. Create a pr on our platform repository and provide the following information:
+
+- **Use a clear and descriptive title** to identify the pull request.
+- **State what this pull request adds/fixes**.
+- **Be sure that you are the owner of the code you contributed** or that it can
+  be licensed under the GPLv3.
+- **Provide a description goals and non-goals of the pull request** in as many
+  details as possible.
+- **Describe the current behavior** and **explain which behavior you expected to
+  see instead** and why.
+- **Explain why this enhancement would be useful** to most Terra users and isn't
+  something that can or should be implemented as an addon.
+- **Do not use LLM/"AI" tools to create your pull request.** Your pr should be written
+  by you. Using an LLM to automate small, tedious tasks (regex and other fiddly things like it)
+  is acceptable, but submitting a low-effort, completely LLM-generated PR will result in a ban.

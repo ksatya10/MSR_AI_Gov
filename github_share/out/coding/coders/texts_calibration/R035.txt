@@ -1,0 +1,9 @@
+sample_id: R035
+policy_doc: .github/PULL_REQUEST_TEMPLATE.md
+(repo name and AI coding deliberately withheld for blinded annotation)
+========================================================================
+
+### AI Assistance Disclosure (REQUIRED)
+<!-- Please select exactly ONE of the following: -->
+- [ ] **No AI tools were used** in preparing this PR.
+- [ ] **If AI tools were used**, I have disclosed which ones, and fully reviewed and verified their output.

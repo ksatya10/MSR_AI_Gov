@@ -1,0 +1,22 @@
+# qiskit/qiskit  (CONTRIBUTING.md)
+# T4_Detailed_Traceability_Required|R4_Validation_or_Evidence_Required|A3_License_or_Source_Compatibility_Required|C2_Form_Restricted|E3_Current_Submission_Rejected_or_Closed
+# adopted 2025-10-02T16:34:06Z
+
+### Use of AI tools
+
+> [!WARNING]
+> If you use any AI tool while preparing your code contribution, you **must** disclose the name of the tool and its version in the PR description.
+
+When using AI tools for code generation, your submission must still be your own original work of authorship, as required by the [Contributor License Agreement (CLA)](https://qisk.it/cla). It is your responsibility to make sure that:
+
+- You review and fully understand the generated code, and you can explain the reasoning behind it during review.
+- The usage of the AI tool does not violate any third-party license obligations.
+- The AI tool's terms and conditions allow its output to be used in open source projects and are compatible with the [Qiskit license](LICENSE.txt), the [Qiskit CLA](https://qisk.it/cla), and [these Contributor Guidelines](CONTRIBUTING.md).
+- You only use AI tools that have features to:
+  * filter out generated code substantially similar to training data, or
+  * identify similar training code so you can comply with the original license obligations (notice, attribution, etc.) and only contribute if it's compatible with the [Qiskit license](LICENSE.txt).
+- You disclose the name and version of the AI tool in your PR description.
+
+Submissions that appear unreviewed or copied directly from an AI tool without proper understanding may be requested to be revised or declined.
+
+Remember that spamming issues or pull requests with AI-generated comments is prohibited under the [Qiskit Code of Conduct](https://qisk.it/coc).

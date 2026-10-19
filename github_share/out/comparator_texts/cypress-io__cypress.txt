@@ -1,0 +1,14 @@
+# cypress-io/cypress  (CONTRIBUTING.md)
+# T4_Detailed_Traceability_Required|R4_Validation_or_Evidence_Required|A3_License_or_Source_Compatibility_Required|C2_Form_Restricted|E3_Current_Submission_Rejected_or_Closed
+# adopted 2026-03-09T00:00:00Z
+
+### AI-Assisted Contributions
+
+We welcome AI-assisted contributions to Cypress, provided that the following guidelines are followed:
+
+- **Disclosure**: Any use of AI tools (e.g., GitHub Copilot, ChatGPT) in the creation of a pull request must be disclosed in the PR description. This includes the extent of AI involvement (e.g., code generation, documentation, test creation).
+- **Responsibility**: Contributors are responsible for the accuracy, quality, and originality of AI-generated content. All AI-generated code must be thoroughly reviewed, tested, and understood by the contributor before submission.
+- **Validation**: AI-generated code must pass all existing tests and include new tests where appropriate. Contributors should verify that AI-generated code does not introduce security vulnerabilities, performance issues, or licensing conflicts.
+- **License Compliance**: Ensure that any AI-generated code complies with the project's license (MIT). Do not submit code that may be encumbered by third-party licenses or that originates from copyrighted sources without proper attribution.
+- **Restrictions**: AI tools should not be used to generate entire features or large swaths of code without human oversight. Contributions that appear to be entirely AI-generated with minimal human review may be rejected.
+- **Enforcement**: The Cypress maintainers reserve the right to reject any contribution that does not adhere to these guidelines or that raises concerns about originality, quality, or licensing.

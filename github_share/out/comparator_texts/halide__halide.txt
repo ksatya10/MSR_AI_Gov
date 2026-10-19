@@ -1,0 +1,23 @@
+# halide/halide  (CONTRIBUTING.md)
+# T4_Detailed_Traceability_Required|R1_Not_Mentioned|A4_Documented_Rights_or_Provenance_Required|C1_No_Substantive_Restriction|E1_Not_Mentioned
+# adopted 2026-03-16T18:55:05Z
+
+### Requirements
+
+_Note: the following list of requirements is still in an aspirational state. You
+may see contributors make ad-hoc, but justified, exceptions to these rules. When
+this happens, the justification should be noted in writing in the PR comments._
+
+- **AI attribution.** If a significant part of your contribution was generated
+  by an AI tool, you must note this in the commit message using a
+  `Co-authored-by` trailer, as described in the
+  [Code of Conduct](CODE_OF_CONDUCT.md). For example (this list is not
+  exhaustive):
+
+  ```
+  Co-authored-by: Claude Opus 4.6 <noreply@anthropic.com>
+  Co-authored-by: Cursor <cursoragent@cursor.com>
+  Co-authored-by: Gemini 3 <gemini-code-assist@google.com>
+  Co-authored-by: copilot-swe-agent[bot] <198982749+copilot@users.noreply.github.com>
+  Co-authored-by: chatgpt-codex-connector[bot] <199175422+chatgpt-codex-connector[bot]@users.noreply.github.com>
+  ```

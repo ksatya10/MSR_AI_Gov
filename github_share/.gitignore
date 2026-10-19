@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+~$*
+returned/
+work/
+to_send/
+docs/
+*_PRIVATE*
+out/pr_raw/
+out/threads_raw/
+out/enforcement_raw/
+out/signoff_ai_candidates.csv
+out/enforcement_coding_sheet.csv

@@ -1,0 +1,24 @@
+{
+  "tree": "/Users/satya/MyVault/CSU/Research/AIgov/pipeline123/work/tree",
+  "head_sha": "f1e1313359f90aa000c8d189f93071a2fe30c471",
+  "tracked_files_total": 68729,
+  "doc_files_total": 17454,
+  "doc_files_scanned": 17454,
+  "doc_files_skipped_too_large": 0,
+  "files_with_ai_vocabulary": 120,
+  "content_hits_excluded_as_code_dir": 96,
+  "candidates_total": 33,
+  "candidates_by_match": {
+    "content_only": 20,
+    "filename_only": 9,
+    "both": 4
+  },
+  "candidates_rule_like_threshold3": 4,
+  "rule_like_threshold_sensitivity": {
+    "1": 8,
+    "2": 5,
+    "3": 4,
+    "5": 4,
+    "10": 2
+  }
+}

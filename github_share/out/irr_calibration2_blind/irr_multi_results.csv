@@ -1,0 +1,6 @@
+dim,letter,n_items,n_coders,treated_as,all_coders_agree,mean_pairwise_agreement,krippendorff_alpha,alpha_ci95_low,alpha_ci95_high,boot_draws_undefined,alpha_band,blank_cells,fleiss_kappa_nominal
+transparency,T,10,2,ordinal,0.9,0.9,0.9131,0.525,1.0,2,almost perfect,0,0.8291
+responsibility,R,10,2,nominal,0.5,0.5,0.24,-0.1877,0.5914,0,fair,0,0.2
+attribution,A,10,2,ordinal,0.9,0.9,0.7,-0.1176,1.0,214,substantial,0,0.6226
+constraints,C,10,2,ordinal,0.7,0.7,0.8896,0.5758,1.0,0,almost perfect,0,0.5556
+enforcement,E,10,2,ordinal,0.9,0.9,0.6817,0.0349,1.0,0,substantial,0,0.8473

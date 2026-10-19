@@ -1,0 +1,26 @@
+sample_id,dimension,blindA,blindA_evidence,blindA_notes,blindB,blindB_evidence,blindB_notes,author,author_evidence,author_notes,blind_agree,agreed,reason
+U1,C,C2_Form_Restricted,"Reviewers must never paste raw, unverified LLM output as a PR comment.",,C3_Context_or_Channel_Restricted,"Reviewers must never paste raw, unverified LLM output as a PR comment.",,C2_Form_Restricted,"Reviewers must never paste raw, unverified LLM output as a PR comment.",,no,,
+U2,scope,in_scope,,,partly_in_scope,,,in_scope,,,no,,
+U3,C,C2_Form_Restricted,"Reviewers must never paste raw, unverified LLM output as a PR comment.",,C3_Context_or_Channel_Restricted,"Reviewers must never paste raw, unverified LLM output as a PR comment.",,C2_Form_Restricted,"Reviewers must never paste raw, unverified LLM output as a PR comment.",,no,,
+U3,scope,in_scope,,,partly_in_scope,,,in_scope,,,no,,
+U1,A,A3_License_or_Source_Compatibility_Required,"Signed-off-by and Developer Certificate of Origin
+=================================================
+
+AI agents **must not** add ``Signed-off-by`` tags. Only humans can legally certify the :ref:`DCO`.",,A3_License_or_Source_Compatibility_Required,Adding their own Signed-off-by tag to certify the DCO.,,A3_License_or_Source_Compatibility_Required,Adding their own Signed-off-by tag to certify the DCO.,,yes,A3_License_or_Source_Compatibility_Required,
+U1,E,E1_Not_Mentioned,none,,E1_Not_Mentioned,no mention,,E1_Not_Mentioned,none,,yes,E1_Not_Mentioned,
+U1,R,R4_Validation_or_Evidence_Required,Reviewing all AI-generated code.,,R4_Validation_or_Evidence_Required,"all AI-generated feedback must be vetted, verified,",,R4_Validation_or_Evidence_Required,Reviewing all AI-generated code.,,yes,R4_Validation_or_Evidence_Required,
+U1,T,T4_Detailed_Traceability_Required,Assisted-by: [Agent Name]:[Model Version] [Tool1] [Tool2],,T4_Detailed_Traceability_Required,Assisted-by: [Agent Name]:[Model Version] [Tool1] [Tool2],,T4_Detailed_Traceability_Required,Assisted-by: [Agent Name]:[Model Version] [Tool1] [Tool2],,yes,T4_Detailed_Traceability_Required,
+U1,scope,in_scope,,,in_scope,,,in_scope,,,yes,in_scope,
+U2,A,A3_License_or_Source_Compatibility_Required,"Signed-off-by and Developer Certificate of Origin
+=================================================
+
+AI agents **must not** add ``Signed-off-by`` tags. Only humans can legally certify the :ref:`DCO`.",,A3_License_or_Source_Compatibility_Required,Adding their own Signed-off-by tag to certify the DCO.,,A3_License_or_Source_Compatibility_Required,Adding their own Signed-off-by tag to certify the DCO.,,yes,A3_License_or_Source_Compatibility_Required,
+U2,C,C1_No_Substantive_Restriction,none,,C1_No_Substantive_Restriction,no mention,,C2_Form_Restricted,AI agents **must not** add ``Signed-off-by`` tags.,,yes,C1_No_Substantive_Restriction,
+U2,E,E1_Not_Mentioned,none,,E1_Not_Mentioned,no mention,,E1_Not_Mentioned,none,,yes,E1_Not_Mentioned,
+U2,R,R4_Validation_or_Evidence_Required,Reviewing all AI-generated code.,,R4_Validation_or_Evidence_Required,Reviewing all AI-generated code.,,R4_Validation_or_Evidence_Required,Reviewing all AI-generated code.,,yes,R4_Validation_or_Evidence_Required,
+U2,T,T4_Detailed_Traceability_Required,Assisted-by: [Agent Name]:[Model Version] [Tool1] [Tool2],,T4_Detailed_Traceability_Required,Assisted-by: [Agent Name]:[Model Version] [Tool1] [Tool2],,T4_Detailed_Traceability_Required,Assisted-by: [Agent Name]:[Model Version] [Tool1] [Tool2],,yes,T4_Detailed_Traceability_Required,
+U3,A,A1_Not_Mentioned,none,,A1_Not_Mentioned,No mention,,A1_Not_Mentioned,none,,yes,A1_Not_Mentioned,
+U3,E,E1_Not_Mentioned,none,,E1_Not_Mentioned,No mention,,E1_Not_Mentioned,none,,yes,E1_Not_Mentioned,
+U3,R,R4_Validation_or_Evidence_Required,"all AI-generated feedback must be vetted, verified,",,R4_Validation_or_Evidence_Required,"all AI-generated feedback must be vetted, verified",,R4_Validation_or_Evidence_Required,"all AI-generated feedback must be vetted, verified, and
+    contextualized by a human reviewer",,yes,R4_Validation_or_Evidence_Required,
+U3,T,T1_Not_Required_or_Not_Mentioned,none,,T1_Not_Required_or_Not_Mentioned,no mention,,T1_Not_Required_or_Not_Mentioned,none,,yes,T1_Not_Required_or_Not_Mentioned,

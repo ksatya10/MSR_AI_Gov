@@ -1,0 +1,41 @@
+commit:      cbced0ca9844c25421c1c774aa631693de602d70
+commit date: 2026-09-22T17:59:06+02:00
+author date: 2026-09-08T16:30:15-06:00
+subject:     AGENTS.md: clarify the Signed-off-by rule
+source:      git show on work/history (HEAD f1e1313359f); author name/email and *-by: trailers omitted
+
+--- message body ---
+The rule read "Never add a `Signed-off-by:` line", which reads as if the
+commit should not have one at all. That contradicts the DCO and the
+"Commits" section below, which requires a sign-off matching the commit
+author and forbids removing an existing one. The prohibition is on the
+agent supplying the trailer, not on the trailer existing.
+
+State both halves: every commit carries a sign-off from the human
+responsible for the work, and an agent never writes, edits or copies one,
+because only a human can certify the DCO
+(doc/contribute/guidelines.rst).
+
+
+--- diff ---
+diff --git a/AGENTS.md b/AGENTS.md
+index 10e10bba2c5..e3ff1724872 100644
+--- a/AGENTS.md
++++ b/AGENTS.md
+@@ -16,10 +16,12 @@ do not rely on this digest or on training data alone.
+ 
+ ## Rules for agents
+ 
+-- Never add a `Signed-off-by:` line: only the human submitter may sign off (DCO). Never add
+-  `Co-authored-by:`. Do not put "Generated with ...", session links or any other mention of AI
+-  tools in commit messages, PR bodies, issues or comments. The `Assisted-by:` trailer below is
+-  the only place AI involvement is recorded.
++- Every commit must carry a `Signed-off-by:` line from the human responsible for the work; it
++  is required, not optional. Never add, edit or copy one yourself: only a human can certify the
++  DCO, and the submitter adds their own (`git commit -s`). Never add `Co-authored-by:`. Do not
++  put "Generated with ...", session links or any other mention of AI tools in commit messages,
++  PR bodies, issues or comments. The `Assisted-by:` trailer below is the only place AI
++  involvement is recorded.
+ - Add exactly one `Assisted-by: <Agent>:<model-version> [tool ...]` trailer, for example
+   `Assisted-by: Claude:claude-opus-4.6 coccinelle`, naming the tool actually used. Replace it
+   rather than stacking when a different model amends the commit. `checkpatch.pl` validates the

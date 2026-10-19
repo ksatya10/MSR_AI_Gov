@@ -1,0 +1,12 @@
+sample_id,dimension,coder_a,coder_b,distance,resolution
+R006,A,A1_Not_Mentioned,A2_General_IP_or_Source_Responsibility,1,
+R001,C,C2_Form_Restricted,C1_No_Substantive_Restriction,1,
+R004,C,C1_No_Substantive_Restriction,C2_Form_Restricted,1,
+R064,C,C3_Context_or_Channel_Restricted,C4_Generally_Excluded,1,
+R073,E,E4_Future_Participation_Restricted,E1_Not_Mentioned,3,
+R001,R,R2_Human_Ownership_Required,R4_Validation_or_Evidence_Required,2,
+R004,R,R3_Understanding_or_Explanation_Required,R2_Human_Ownership_Required,1,
+R006,R,R1_Not_Mentioned,R2_Human_Ownership_Required,1,
+R064,R,R4_Validation_or_Evidence_Required,R3_Understanding_or_Explanation_Required,1,
+R073,R,R4_Validation_or_Evidence_Required,R2_Human_Ownership_Required,2,
+R005,T,T1_Not_Required_or_Not_Mentioned,T3_Basic_Disclosure_Required,2,

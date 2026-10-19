@@ -1,0 +1,8 @@
+sample_id: R036
+policy_doc: .github/PULL_REQUEST_TEMPLATE.md
+(repo name and AI coding deliberately withheld for blinded annotation)
+========================================================================
+
+## Changes
+
+<!-- What does this change exactly? Who will be affected? Include relevant screenshots, videos, links. Please highlight all the changes that you are not sure about (ex: AI agent generated) -->

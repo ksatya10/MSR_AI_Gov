@@ -1,0 +1,49 @@
+{
+  "repo": "zephyrproject-rtos/zephyr",
+  "window": [
+    "2025-01-01",
+    "2026-09-30 23:59:59"
+  ],
+  "policy_date": "2026-03-06",
+  "prs_listed_in_window": 30312,
+  "bot_prs_excluded": 893,
+  "paper_outcome_ai_disclosure_pr_share": {
+    "definition": "non-bot PRs opened whose title+body match the package's contains_self_disclosed_ai_pr_trace, / non-bot PRs opened",
+    "pre": {
+      "prs": 16665,
+      "flagged": 2,
+      "share": 0.0001
+    },
+    "post": {
+      "prs": 12754,
+      "flagged": 17,
+      "share": 0.0013
+    }
+  },
+  "merged_post_policy_nonbot_prs": 9582,
+  "base_branch": "main",
+  "commits_fetched_for": 9582,
+  "commits_sampled": false,
+  "trailer_level": {
+    "prs_with_any_assisted_by_commit": 1864,
+    "share": 0.1945,
+    "paper_rule_on_same_prs": 8,
+    "paper_rule_share_on_same_prs": 0.0008,
+    "trailer_prs_missed_by_paper_rule": 1860,
+    "paper_rule_prs_without_trailer": 4,
+    "crosstab": {
+      "trailer=False|paper_rule=False": 7714,
+      "trailer=False|paper_rule=True": 4,
+      "trailer=True|paper_rule=False": 1860,
+      "trailer=True|paper_rule=True": 4
+    },
+    "trailer_prs_whose_body_contains_assisted_by": 280
+  },
+  "within_pr_consistency": {
+    "multi_commit_prs_with_a_trailer": 831,
+    "of_which_not_every_commit_discloses": 239,
+    "share_not_every_commit": 0.2876
+  },
+  "api_calls_this_run": 9899,
+  "bot_rule": "user type Bot, login ending [bot], or package agent_impact_bots.csv pattern"
+}

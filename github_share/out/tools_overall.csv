@@ -1,0 +1,28 @@
+agent,lines,share
+claude,3432,0.7661
+github copilot,262,0.0585
+cursor,198,0.0442
+copilot,149,0.0333
+(none),126,0.0281
+claude code,91,0.0203
+codex,75,0.0167
+antigravity,29,0.0065
+gemini,22,0.0049
+chatgpt,20,0.0045
+wchat,19,0.0042
+vero-coder,15,0.0033
+githubcopilot,7,0.0016
+grok,7,0.0016
+kiro,6,0.0013
+augment,4,0.0009
+opencode,4,0.0009
+cody,3,0.0007
+openai codex,2,0.0004
+copilot-cli,2,0.0004
+deepseek,1,0.0002
+claude-code,1,0.0002
+pi,1,0.0002
+openai-codex,1,0.0002
+openai,1,0.0002
+gptcodex,1,0.0002
+codex cli,1,0.0002

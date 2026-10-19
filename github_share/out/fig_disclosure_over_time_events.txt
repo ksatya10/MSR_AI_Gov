@@ -1,0 +1,1 @@
+Dotted lines: 1 = copilot-instructions.md added (2026-04-22); 2 = copilot-instructions.md: Assisted-by added to commit format example (2026-05-27); 3 = AGENTS.md added (2026-09-04).

@@ -1,0 +1,356 @@
+sample_id,policy_text,T,R,A,C,E,confidence,notes
+R001,"sample_id: R001
+policy_doc: .github/PULL_REQUEST_TEMPLATE.md
+(repo name and AI coding deliberately withheld for blinded annotation)
+========================================================================
+
+## Checklist
+
+- [ ] I confirm that the code and comments in this PR are not direct unreviewed outputs of AI
+- [ ] I confirm that I am the Sole Responsible Author for every line of code, comment, and design decision",,,,,,,
+R004,"sample_id: R004
+policy_doc: .github/PULL_REQUEST_TEMPLATE.md
+(repo name and AI coding deliberately withheld for blinded annotation)
+========================================================================
+
+## AI Disclosure
+
+<!-- Check one. Be honest.
+
+It is okay to use coding agents to discover, build features and fix bugs,
+but you are ultimately responsible for the patch.
+
+This project does not welcome YOLO coding. -->
+
+- [ ] I used coding agents to create this patch. I understand and am responsible for all the code it generates.
+- [ ] I did not use any coding agent to create this patch. I am responsible for all the code I wrote.",,,,,,,
+R005,"sample_id: R005
+policy_doc: CONTRIBUTING.md
+(repo name and AI coding deliberately withheld for blinded annotation)
+========================================================================
+
+## AI-Assisted Contributions
+
+We welcome the use of AI coding assistants (GitHub Copilot, Claude, ChatGPT, etc.) to help write code, documentation, and tests. However, you are fully responsible for reviewing and understanding all AI-generated code before submitting it.
+
+### Requirements for AI-Assisted PRs
+
+* **Review everything**: Read every line of AI-generated code. Understand what it does and why.
+* **Test thoroughly**: AI can generate plausible-looking code that doesn't work or has subtle bugs. Run tests and verify behavior.
+* **Remove AI artifacts**: Delete verbose comments, unnecessary explanations, or boilerplate that AI tends to add.
+* **Check for hallucinations**: AI models can invent APIs, packages, or patterns that don't exist. Verify all imports and function calls.
+* **Attest in your PR**: Use the AI-Assisted Code checklist in the PR template to acknowledge your review.
+
+### What Reviewers Look For
+
+Maintainers will be alert to common AI-generated code patterns:
+
+* Overly defensive error handling or excessive nil checks
+* Verbose or redundant comments explaining obvious operations
+* Cargo-culted patterns that don't fit our codebase conventions
+* Inconsistent style mixing modern and legacy approaches
+* Test cases that pass but don't actually validate behavior
+
+If a PR shows signs of unreviewed AI output, we'll reject it with feedback. This isn't punitive. It's about maintaining code quality and helping you learn to use AI tools effectively.
+
+### Small PRs Principle
+
+Keep PRs focused and reasonably sized. Smaller changes are easier to review (for both you and maintainers) and make it obvious when AI has generated too much code. If your AI assistant wants to refactor multiple files, split it into separate PRs.",,,,,,,
+R006,"sample_id: R006
+policy_doc: CONTRIBUTING.md
+(repo name and AI coding deliberately withheld for blinded annotation)
+========================================================================
+
+## Code of conduct
+
+Be polite, kind, and considerate.  Do not spam, advertise, or proselytize.
+
+**AI-generated contributions violate the code of conduct.**  An exception is made for the use of AI to translate text from another language.
+
+## Contributing code
+
+**First of all, all contributions to SLiM must be human-authored in accordance with the code of conduct.**  It is acceptable to use AI as a reference tool, to essentially provide documentation that you consult while working.  It is *not* acceptable to use AI to write code, documentation, or any other part of a PR that you submit to the SLiM repository.  PRs that incorporate AI-generated content will be rejected, with reference to this policy.  Repeated attempts will result in blocking.  Thank you for understanding and complying with this policy.
+
+## Contributing documentation and recipes.
+
+**First of all, all contributions to SLiM must be human-authored in accordance with the code of conduct.**  That said, if you wish to make contributions to SLiM's documentation, such as edits or new recipes, that's great.  SLiM's documentation is kept in a macOS app called Pages that stores its data in binary form, so the doc is not available online in its original form, and pull requests against it are not possible.  In general the best approach is thus to open a new issue and provide a description of the edits you would suggest, with a rationale for them.",,,,,,,
+R022,"sample_id: R022
+policy_doc: AI_POLICY.md
+(repo name and AI coding deliberately withheld for blinded annotation)
+========================================================================
+
+# AI Usage Policy
+
+The Recoil project has strict rules for AI usage:
+
+- **All AI usage in any form must be disclosed.** You must state
+  the tool you used (e.g. Claude Code, Cursor, Amp) along with
+  the extent that the work was AI-assisted.
+
+- **Pull requests created in any way by AI can only be for accepted issues.**
+  Drive-by pull requests that do not reference an accepted issue will be
+  closed. If AI isn't disclosed but a maintainer suspects its use, the
+  PR will be closed. If you want to share code for a non-accepted issue,
+  open a discussion or attach it to an existing discussion.
+
+- **Pull requests created by AI must have been fully verified with
+  human use.** AI must not create hypothetically correct code that
+  hasn't been tested. Importantly, you must not allow AI to write
+  code for platforms or environments you don't have access to manually
+  test on.
+
+- **Issues and discussions can use AI assistance but must have a full
+  human-in-the-loop.** This means that any content generated with AI
+  must have been reviewed _and edited_ by a human before submission.
+  AI is very good at being overly verbose and including noise that
+  distracts from the main point. Humans must do their research and
+  trim this down.
+
+- **No AI-generated media is allowed (art, images, videos, audio, etc.).**
+  Text and code are the only acceptable AI-generated content, per the
+  other rules in this policy.
+
+- **Bad AI drivers will be banned and ridiculed in public.** You've
+  been warned. We love to help junior developers learn and grow, but
+  if you're interested in that then don't use AI, and we'll help you.
+  I'm sorry that bad AI drivers have ruined this for you.
+
+These rules apply only to outside contributions to Recoil. Maintainers
+are exempt from these rules and may use AI tools at their discretion;
+they've proven themselves trustworthy to apply good judgment.
+
+## There are Humans Here
+
+Please remember that Recoil is maintained by humans.
+
+Every discussion, issue, and pull request is read and reviewed by
+humans (and sometimes machines, too). It is a boundary point at which
+people interact with each other and the work done. It is rude and
+disrespectful to approach this boundary with low-effort, unqualified
+work, since it puts the burden of validation on the maintainer.
+
+In a perfect world, AI would produce high-quality, accurate work
+every time. But today, that reality depends on the driver of the AI.
+And today, most drivers of AI are just not good enough. So, until either
+the people get better, the AI gets better, or both, we have to have
+strict rules to protect maintainers.
+
+## AI is Welcome Here
+
+Recoil is written with some of AI assistance, and many maintainers embrace
+AI tools as a productive tool in their workflow. As a project, we welcome
+AI as a tool!
+
+**Our reason for the strict AI policy is not due to an anti-AI stance**, but
+instead due to the number of highly unqualified people using AI. It's the
+people, not the tools, that are the problem.
+
+I include this section to be transparent about the project's usage about
+AI for people who may disagree with it, and to address the misconception
+that this policy is anti-AI in nature.
+
+### Attribution
+
+This policy originates from https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md
+
+We're grateful to the authors for the well thought and excellently written text.",,,,,,,
+R044,"sample_id: R044
+policy_doc: CONTRIBUTING.md
+(repo name and AI coding deliberately withheld for blinded annotation)
+========================================================================
+
+## AI use policy and guidelines
+
+Our goal in the Zulip project is to develop an excellent software
+system. This requires careful attention to detail in every change we
+integrate. Maintainer time and attention is very limited, so it's
+important that changes you ask us to review represent
+your _best_ work.
+
+You can use any tools that help you understand the Zulip codebase and
+write good code, including AI tools. However, as noted above, you
+always need to understand and explain the changes you're proposing to
+make, whether or not you used an LLM as part of your process to
+produce them. The answer to “Why is X an improvement?” should never be
+“I'm not sure. The AI did it.”
+
+::: warning
+**Do not submit an AI-generated PR you haven't personally understood and
+tested**, as this wastes maintainers' time. PRs that appear to violate this
+guideline will be closed without review.
+:::
+
+### Using AI as a coding assistant
+
+1. Don't skip **becoming familiar with the part of the codebase**
+   you're working on. This will let you write better prompts and
+   validate their output if you use an LLM. Code assistants can be a
+   useful search engine/discovery tool in this process, but don't
+   trust claims they make about how Zulip works. LLMs are often wrong,
+   even about details that are clearly answered in the Zulip
+   documentation.
+1. Split up your changes into **[coherent
+   commits](https://zulip.readthedocs.io/en/latest/contributing/commit-discipline.html)**,
+   even if an LLM generates them all in one go.
+1. Don't simply ask an LLM to add **code comments**, as it will likely
+   produce a bunch of text that unnecessarily explains what's already
+   clear from the code. If using an LLM to generate comments, be
+   really specific in your request, demand succinctness, and carefully
+   edit the result.
+
+### Using AI for communication
+
+As noted above, Zulip's contributors are expected to communicate with
+intention, to avoid wasting maintainer time with long, sloppy
+writing. We strongly prefer clear and concise communication about
+points that actually require discussion over long AI-generated
+comments.
+
+**Do not post AI-generated messages** in the [Zulip development
+community](https://zulip.com/development-community/) -- we want to read your
+own genuine expression of your thoughts. It's fine to use whatever tools you
+like for help with spelling, grammar, or translation.
+
+When you use an LLM to write a PR description or comment, it remains **your
+responsibility** to read through the whole thing and make sure that it
+makes sense to you and represents your ideas concisely. A good rule
+of thumb is that if you can't make yourself carefully read some LLM
+output that you generated, nobody else wants to read it either.
+
+Here are some concrete guidelines for using LLMs as part of your communication
+workflows.
+
+1. When writing a pull request description, **do not include anything that's
+   obvious** from looking at your changes directly (e.g., files changed, functions
+   updated, etc.). Instead, focus on the _why_ behind your changes. Don't ask an
+   LLM to generate a PR description on your behalf based on your code changes,
+   as it will simply regurgitate the information that's already there.
+1. Similarly, when responding to a pull request",,,,,,,
+R052,"sample_id: R052
+policy_doc: CONTRIBUTING.md
+(repo name and AI coding deliberately withheld for blinded annotation)
+========================================================================
+
+## Use of Coding Agents
+Coding Agents are fine to use, but any PR that appears to be ""AI slop"" or generated without any apparent thought by the actual programmer, may be closed without comment.",,,,,,,
+R055,"sample_id: R055
+policy_doc: CONTRIBUTING.md
+(repo name and AI coding deliberately withheld for blinded annotation)
+========================================================================
+
+## AI assisted coding
+
+The types of AI-assisted coding that will be accepted:
+
+- Scaffolding for common framework patterns
+- Scaffolding for test patterns/test generation
+- Mass file editing for tedious repetitive changes
+
+The types of AI changes that will **NOT** be accepted:
+
+- Fully automated code generation
+- AI generated comments and responses in code review
+- Lack of understanding of the change
+
+Contributions from supervised AI assisted coding agents who build the majority (or all of) a change, such as [co pilot tasks](https://github.blog/changelog/2025-10-28-a-mission-control-to-assign-steer-and-track-copilot-coding-agent-tasks/), will be accepted only on the following basis:
+
+1. A human can verifiably prove they have reviewed and checked that the contribution does what it says it does.
+2. If requested, the human author must provide evidence of the prompt given to the AI agent, and the logs of it producing the change. (For example - co pilot tasks produces a public log).
+3. If requested, the human author explicitly calls out that an supervised AI agent created the change when they make a pull request.
+4. The human author is prepared to own the change (just like any other change they make) and fix any issues that arise from it.
+
+### Maintainers decision is final
+
+If you cannot sufficiently demonstrate good use of AI tooling we will close your change.
+
+We contribute to this project in our free time. Our time is valuable. Our time is not to be spent doing the thinking for you because you outsourced work to an LLM coding agent.",,,,,,,
+R064,"sample_id: R064
+policy_doc: .github/AI_POLICY.md
+(repo name and AI coding deliberately withheld for blinded annotation)
+========================================================================
+
+# Generative AI / LLM Policy
+
+We appreciate that we can't realistically police how you author your pull requests, which includes whether you employ large-language model (LLM)-based development tools.
+So, we don't.
+
+However, due to both legal and human reasons, we have to establish boundaries.
+
+> [!CAUTION]
+> **TL;DR:**
+> - We take the responsibility for this project very seriously and we expect you to take your responsibility for your contributions seriously, too.
+>   This used to be a given, but it changed now that a pull request is just one prompt away.
+>
+> - Every contribution has to be backed by a human who unequivocally owns the copyright for all changes.
+>   No LLM bots in `Co-authored-by:`s.
+>
+> - DoS-by-slop leads to a permanent ban.
+>
+> - Absolutely **no** unsupervised agentic tools like OpenClaw.
+>
+> ---
+>
+> By submitting a pull request, you certify that:
+>
+> - You are the author of the contribution or have the legal right to submit it.
+> - You either hold the copyright to the changes or have explicit legal authorization to contribute them under this project's license.
+> - You understand the code.
+> - You accept full responsibility for it.
+
+
+## Legal
+
+There is ongoing legal uncertainty regarding the copyright status of LLM-generated works and their provenance.
+Since we do not have a formal [Contributor License Agreement](https://en.wikipedia.org/wiki/Contributor_license_agreement) (CLA), you retain your copyright to your changes to this project.
+
+Therefore, allowing contributions by LLMs has unpredictable consequences for the copyright status of this project – even when leaving aside possible copyright violations due to plagiarism.
+
+
+## Human
+
+As the makers of software that is used by millions of people worldwide and with a reputation for high-quality maintenance, we take our responsibility to our users very seriously.
+No matter what LLM vendors or boosters on LinkedIn tell you, we have to manually review every change before merging, because it's **our responsibility** to keep the project stable.
+
+Please understand that by opening low-quality pull requests you're not helping anyone.
+Worse, you're [poisoning the open source ecosystem](https://lwn.net/Articles/1058266/) that was precarious even before the arrival of LLM tools.
+Having to wade through plausible-looking-but-low-quality pull requests and trying to determine which ones are legit is extremely demoralizing and has already burned out many good maintainers.
+
+Put bluntly, we have no time or interest to become part of your vibe coding loop where you drop LLM slop at our door, we spend time and energy to review it, and you just feed it back into the LLM for another iteration.
+
+This dynamic is especially pernicious because it poisons the well for mentoring new contributors which we are committed to.
+
+
+## Summary
+
+In practice, this means:
+
+- Pull requests that have an LLM product listed as co-author can't be merged and will be closed without further discussion.
+  We cannot risk the copyright status of this project.
+
+  If you used LLM tools during development, you may still submit – but you must remove any LLM co-author tags and take full ownership of every line.
+
+- By submitting a pull request, **you** take full **technical and legal** responsibility for the contents of the pull request and promise that **you** hold the copyright for the changes submitted.
+
+  ""An LLM wrote it"" is **not** an acceptable response to questions or critique.
+  **If you cannot explain and defend the changes you submit, do not submit them** and open a high-quality bug report/feature request instead.
+
+- Accounts that exercise bot-like behavior – like automated mass pull requests – will be permanently banned, whether they belong to a human or not.
+
+- Do **not** post LLM-generated review comments – we can prompt LLMs ourselves should we desire their wisdom.
+  Do **not** post summaries unless you've fact-checked them and take responsibility for 100% of their content.
+  Remember that *all* LLM output *looks* **plausible**.
+  When using these tools, it's **your** responsibility to ensure that it's also **correct** and has a reasonable signal-to-noise ratio.",,,,,,,
+R073,"sample_id: R073
+policy_doc: AI_POLICY.md
+(repo name and AI coding deliberately withheld for blinded annotation)
+========================================================================
+
+# AI Policy
+
+This document describes the AI policy for the Spegel project inspired by the policy in [Ghostty](https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md).
+
+Spegel is a project that is built and maintained by humans. LLMs are able to generate text that may look correct, at a pace few humans can keep up with. This tends to result in long-winded responses that take a lot more time to read and respond to, that may not even be factually correct in the first place. All communication in pull requests and issues from project maintainers are written by humans. For the same reason it is expected that all communication on the other end is also written by humans.
+
+All PRs created with the help of an LLM should be clearly stated. You are expected to disclose the model used and to what extent it was used to generate the code. Any changes made without a human in the loop are explicitly forbidden. You are still expected to take responsibility for the changes that you submit which is not possible without human involvement.
+
+Please follow these rules and respect the time and energy of the people who work on Spegel.",,,,,,,

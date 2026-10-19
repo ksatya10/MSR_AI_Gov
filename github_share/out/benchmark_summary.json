@@ -1,0 +1,55 @@
+{
+  "cohort_size": 385,
+  "subject": "zephyrproject-rtos/zephyr",
+  "subject_vector": {
+    "T": 4,
+    "R": 4,
+    "A": 3,
+    "C": 2,
+    "E": 1
+  },
+  "subject_family_observed_rule": "Disclosed_Regulated",
+  "subject_family_documented_rule": "Disclosed_SoftEnforced",
+  "subject_in_cohort": false,
+  "position": {
+    "T": {
+      "level": 4,
+      "pct_of_cohort_at_this_level": 35.84,
+      "pct_of_cohort_above_this_level": 0.0
+    },
+    "R": {
+      "level": 4,
+      "pct_of_cohort_at_this_level": 59.74,
+      "pct_of_cohort_above_this_level": 0.0
+    },
+    "A": {
+      "level": 3,
+      "pct_of_cohort_at_this_level": 27.01,
+      "pct_of_cohort_above_this_level": 3.64
+    },
+    "C": {
+      "level": 2,
+      "pct_of_cohort_at_this_level": 29.35,
+      "pct_of_cohort_above_this_level": 41.82
+    },
+    "E": {
+      "level": 1,
+      "pct_of_cohort_at_this_level": 45.97,
+      "pct_of_cohort_above_this_level": 54.03
+    }
+  },
+  "comparators": {
+    "matched_on": [
+      "T",
+      "A"
+    ],
+    "n": 33,
+    "n_with_policy_text": 15,
+    "n_matching_all_five_dims": 1
+  },
+  "family_rule_audit": {
+    "observed_rule_reproduces_all_labels": true,
+    "mismatches": 0,
+    "note": "data/prompts/README.md documents the family as a function of T, C and E only; the shipped labels additionally split C1 on R (R>=3 -> Permissive_Accountable)."
+  }
+}

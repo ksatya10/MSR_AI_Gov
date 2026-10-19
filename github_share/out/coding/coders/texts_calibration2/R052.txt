@@ -1,0 +1,7 @@
+sample_id: R052
+policy_doc: CONTRIBUTING.md
+(repo name and AI coding deliberately withheld for blinded annotation)
+========================================================================
+
+## Use of Coding Agents
+Coding Agents are fine to use, but any PR that appears to be "AI slop" or generated without any apparent thought by the actual programmer, may be closed without comment.

@@ -1,0 +1,5 @@
+path,source_bytes,extracted_bytes,extraction_ratio,evidence,first_ai_commit_sha,first_ai_commit_date,first_ai_commit_subject,first_ai_commit_pr,n_ai_touching_commits
+doc/contribute/guidelines.rst,41880,1578,0.0377,section 'AI Coding Assistants' (heading names AI; whole section),df8b5861725396858cb31417abeb68a00750a803,2026-03-06T21:37:32+01:00,doc: contribute: add AI coding assistant guidelines,,1
+doc/contribute/reviewer_expectations.rst,4295,502,0.1169,1 AI block(s) in section 'Reviewer Expectations',df8b5861725396858cb31417abeb68a00750a803,2026-03-06T21:37:32+01:00,doc: contribute: add AI coding assistant guidelines,,1
+.github/copilot-instructions.md,1364,1251,0.9172,section 'Zephyr Project — Copilot Instructions' (heading names AI; whole section),05e73162ff8c8bcc750b3549f66959d65a871654,2026-04-22T17:14:09+02:00,.github: add Copilot instructions for contributors,,2
+AGENTS.md,13262,13149,0.9915,section 'Zephyr RTOS: instructions for AI coding agents' (heading names AI; whole section),d9245e860ff7fcf63a86812ad9c1d8ab6a38e8fd,2026-09-04T13:42:04-04:00,AGENTS.md: add instructions for AI coding agents,,2
